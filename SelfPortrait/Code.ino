@@ -11,6 +11,9 @@ int q2Num = 2;
 int q3Num = 3;
 int q4Num = 4;
 
+//set delay between images
+int delay = 30;
+
 void setup() {
 
   size(500, 500);
@@ -121,7 +124,7 @@ void draw() {
     //reset loop
     q1Num = 1;
   }
-  delay(30);
+  delay(delay);
   
   //now for q2
     switch(q2Num) {
@@ -174,7 +177,7 @@ void draw() {
     //reset loop
     q2Num = 1;
   }
-  delay(30);
+  delay(delay);
   
   //now q3
     switch(q3Num) {
@@ -227,7 +230,7 @@ void draw() {
     //reset loop
     q3Num = 1;
   }
-  delay(30);
+  delay(delay);
   
   //q4
     switch(q4Num) {
@@ -280,6 +283,6 @@ void draw() {
     //reset loop
     q4Num = 1;
   }
-  delay(30);
+  delay(delay);
   
 }
