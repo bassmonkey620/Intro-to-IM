@@ -42,6 +42,7 @@ void setup () {
   }
 }
 
+//function for squares in each cell
 void squares(int xTrans, int yTrans) {
   //define size of smallest square
   int size = 20;
@@ -73,7 +74,8 @@ void squares(int xTrans, int yTrans) {
     pushMatrix();
     translate(xTrans, yTrans);  //translate to the cell
     square(x, y, size);         //draw a square 
-    size+= 80 / sqNum ;     //increases sizes to divide space around small square evenly
+    size+= 80 / sqNum ;         //increases sizes to divide space around small square evenly
+                                //80 is size of cell - size of smallest square, can't use lastPos because  it is based on size
     x -= xChange;               //shift squares to adjust for noise locaiton of small square
     y -= yChange;
     popMatrix();
