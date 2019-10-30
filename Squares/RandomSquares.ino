@@ -53,7 +53,7 @@ void squares(int xTrans, int yTrans) {
   float sqXRange = random(lastPos);
   float sqXNoise = noise(sqXRange);
   int x = (int)map(sqXNoise, 0, 1, 0, lastPos);   //produce an initial x
-  //now tie the y coordinates, position is not tied to noise
+  //now tie the y coordinates, position is now tied to noise
   float smSqYRange = random(lastPos);
   float smSqYNoise = noise(smSqYRange);
   int y = (int)map(smSqYNoise, 0, 1, 0, lastPos); //produce an initial y
