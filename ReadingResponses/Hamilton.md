@@ -8,4 +8,4 @@ If McMillan’s goal was to focus upon Hamilton’s work, then some of the patri
 irreverent. On the other hand, I’m careful to not exaggerate this criticism as something that makes the article not worth reading. 
 What Hamilton accomplished deserves to be imbued into our collective memory, for both the impact her accomplishments had and the reminder
 that role models come in more than one gender. If anyone is interested in reading more about women in the early computer industry,
-I would recommend Broad Band: The Untold Story of the Women Who Made the Internet by Claire L. Evans.
+I would recommend *Broad Band: The Untold Story of the Women Who Made the Internet* by Claire L. Evans.
