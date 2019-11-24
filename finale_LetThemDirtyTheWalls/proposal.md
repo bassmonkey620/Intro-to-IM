@@ -27,6 +27,7 @@ Independent wall parts:
     - detect the state of the infrared sensor
     - send the state of the infrared sensor to processing
     - if a particular sensor is activated,  play a particular tone (or a particular mp3 file)
+    
 **Processing Code**
 - Make the background black with white text: “Let them dirty the walls.”
 - Communication with Arduino (call & response):
