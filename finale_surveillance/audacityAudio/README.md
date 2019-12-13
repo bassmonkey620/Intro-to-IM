@@ -1,1 +1,1 @@
-This is the audicity project for the audio file used in this project, along with the associated mp4s.
+This is the audio file used in this project, along with those used to build it.
