@@ -49,9 +49,9 @@ I then figured out where to position each sensor on the shelves and where I woul
 
 ![Initial Build Uncovered Image](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/initialBuild_uncovered.JPG)
 
-![Initial Build Inside Image](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/initialBuild_Inside.jpg)
+![Initial Build Inside Image](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/initialBuild_inside.jpg)
 
-![Mounted IR Sensor](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/mountedIRSensor_initialBuild.jpg)
+![Mounted IR Sensor](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/mountedIRSesnor_initialBuild.jpg)
 
 ![Initial Build Vido](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/initialBuild_inside.mp4)
 
