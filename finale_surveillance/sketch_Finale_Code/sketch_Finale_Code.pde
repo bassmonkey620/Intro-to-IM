@@ -1,4 +1,4 @@
-//Processing Code for Final Introduction to Interactive Media Project*/
+//Processing Code for Final Introduction to Interactive Media Project
 
 //Oh, and put comments as you go next time, idiot.
 
