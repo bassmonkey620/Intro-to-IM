@@ -23,9 +23,9 @@ In the final version, each sensor detects the approximate distance to the wall, 
 
 ## Visuals
 
-When I was waiting for responses, approval for the space (asking for 1.5m x 2m x 2.2m of space for an Intro project was a risk), and responses to inquiries for materials, I started working on the visuals. I had noticed during my tesselations project that if I put the rotate function inside of a particular if loop, then instead of a spinning grid, a crazy spiral would start spinning. I wondered if I could code a series of spirals that would behave like water droplets on a still lake, appearing and disappearing as each IR sensor was triggered. After several days of playing with it, I ended up with spirals that would appear and disappear on their on.
+When I was waiting for responses, approval for the space (asking for 1.5m x 2m x 2.2m of space for an Intro project was a risk), and responses to inquiries for materials, I started working on the visuals. I had noticed during my tesselations project that if I put the rotate function inside of a particular if loop, then instead of a spinning grid, a crazy spiral would start spinning. I wondered if I could code a series of spirals that would behave like water droplets on a still lake, appearing and disappearing as each IR sensor was triggered. After several days of playing with it, I ended up with spirals that would appear and disappear on their own.
 
-SCREENSHOT
+![Early Visuals Image](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/spirals_01.JPG)
 
 Each spiral that appears in consists of a three nested object classes. The first class is simply a square which I can access the opacity of, called Dot. While a small thing, accessing the opacity at this level allows for the spirals to disappear a little bit with every frame. Dots also rotate in the opposite direction of the spiral. The second class is called spiral, and consists of drawing a Dot, changing position along the path of a spiral, drawing another Dot, and so on, up to a limited number of dots. The third class, Called cells, defines an area on the sketch and randomly generates a Spiral in that area.For the final code, I created sixteen array lists of Cells with defined areas that divided the space of the sketch into sixteen even spaces, with each space corresponding to a particular sensor.
 
@@ -33,7 +33,7 @@ Each spiral that appears in consists of a three nested object classes. The first
 
 After the visuals were finished, I moved on to the audio. After a bit of rummaging around the internet for interesting sounds, I settled on creating a simple pianno arpeggio loop using [free mp4 files from the University of Iowa](http://theremin.music.uiowa.edu/MISpiano.html) and the open source audio mixing program [Audacity](https://www.audacityteam.org/). 
 
-SCREENSHOT
+![Audacity Image](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/finaleAudio.JPG)
 
 The final audio file plays this sequence (base not for each chord bolded): **A4**-C5-E5-A5-E5-**F4**-A4-C5-F5-C5-**G4**-B4-D5-G5-D5-**E4**-G4-B4-E5-B4. Once I had the file made, I started playing around with the Sound library in processing, and ultimately decided to use the different rows and columns of sensors to change playback speed and volume. In the end, however, the audio ended up being the greatest headache.
 
