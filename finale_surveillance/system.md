@@ -6,7 +6,7 @@
 3. JST connectors x 16
 4. 12V AC power supply
 5. USB A to B cable
-6. wired stereo speakers x 2
+6. wired stereo speaker x 2
 7. Epson projector
 8. long HDMI cable
 9. HDMI to mini displayport
@@ -22,5 +22,5 @@
 6. Plastic rest for Arduino
 
 # System Diagram
-
+PICTURE
 
