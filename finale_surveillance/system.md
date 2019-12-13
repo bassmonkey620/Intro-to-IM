@@ -4,7 +4,7 @@
 1. Arduino Mega
 2. GP2Y0A02YK IR distance sensor (20cm-150cm) x 16
 3. JST connectors x 16
-4. 12V AC power supply
+4. 12V AC-DC power supply
 5. USB A to B cable
 6. wired stereo speaker x 2
 7. Epson projector
