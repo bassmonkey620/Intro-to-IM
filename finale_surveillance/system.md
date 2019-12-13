@@ -1,19 +1,24 @@
 # Materials
 
 ## Electronic Components
+
 1. Arduino Mega
+![Arduino Mega Image](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/arduinoMega.jpg)
 2. GP2Y0A02YK IR distance sensor (20cm-150cm) x 16
 3. JST connectors x 16
 4. 12V AC-DC power supply
 5. USB A to B cable
 6. wired stereo speaker x 2
+![Speakers Image](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/stereoSpeakers.jpg)
 7. Epson projector
+![Projector Image](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/projector.jpg)
 8. long HDMI cable
 9. HDMI to mini displayport
 10. international extension chord 
 11. computer with usb, aux, and mini displayport inputs
 
 ## Physical Components
+
 1. Shelving unit; ~1m x 2.2m x ~.5m; four shelves
 2. black fabric, at least 2 x 2.2m
 3. black fabric, roughly 90cm x 60cm x 8
@@ -24,9 +29,10 @@
 
 # System Diagram
 
-PICTURE
+![System Diagram](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/systemDiagram.jpg)
 
 # Explanation
+
 ## Overview and Arduino Code
 The indepedent wall is made of two shelving units that stand roughly two meters high. These are placed 1.5 meters from the room wall. There are four shelves on each unti. 16 IR distance sensors are attached to the edges of these shelves with zipties at relatively equal intervals, creating a 4 x 4 grid of sensors. Wires run back into the shelves and connect to the Arduino Mega and solderless breadboard on the second shelf. Two stereo speakers are on opposite ends of the third shelves. The computer, a Microsoft Surface Pro 3 (4GB RAM, 128GB hardrive, i5 processor), sits in between them. On the other side of the independent wall is an Epson projector, powered by ceiling-mounted extension chords. An hdmi cable runs across the ceiling and dangles down into the independent wall. This HDMI cable is connected to an HDMI to mini displayport converter, which is plugged into the computer. The computer connects to the Arudino Mega via a USB-A to USB-B cable. Everything is plugged into and powered from a four-socket international extension chord underneath the shelves (which is plugged into a nearby wall socket). A black stage curtain is pulled out over the outside of the independent wall and wrapped around the end, secured with velcro strips. Binder clips hold a 2m x 2m sheet up on this curtain, on which the visuals are projected. Rectangles of black fabric, roughly 90cm by 60cm, are hung from the top of each shelf, hiding the cables, computer, speakers, and Arduino.
 
@@ -41,6 +47,7 @@ The processing sketch is effectively divided into sixteen equal sections. Each s
 A Cell is the highest level of a three-level nest of object classes. The base level is called Dot. Dots are squares that rotate and decrease in opacity with each frame. The second level is called Spiral. Spirals sequentially generate Dots on a pre-defined spiral line. They also rotate in the opposite direction of the Dots they generate. Cells are essentially Spirals with defineable boundaries for their origin. They allow for the processing sketch to be divided into sixteen equal sections, so every sensor can be responsible for a different part of the sketch.
 
 ### Audio
+
 The audio loads an mp4 sound file that I created in Audacity and loops it. In draw, the amplitude and playback speed are constantly updated to variables. Each variable is defined by a smoothing function:
 
 current amplitude = (desired amplitude - current amplitude) * amplitude scale factor
