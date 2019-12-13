@@ -53,7 +53,7 @@ I then figured out where to position each sensor on the shelves and where I woul
 
 ![Mounted IR Sensor](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/mountedIRSesnor_initialBuild.jpg)
 
-![Initial Build Vido](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/initialBuild_inside.mp4)
+![Initial Build Video](https://github.com/bassmonkey620/Intro-to-IM/blob/master/finale_surveillance/referenceMedia/initialBuild_inside.mp4)
 
 
 After that, I set up the speakers I would be working with and started to do different tests with different audio effects. I initially tried to have each row responsible from playback speed and each column responsible for volume. However, this did not work out because the way I had it coded meant for awkward, difficult to understand jumps between playback speeds and volumes. With only the volume, the interaction was much clearer, but still incredibly jumpy and a bit confusion. The jumpiness was caused by the fact that I set the amplitude and playback speed to change to a set value as soon as a sensor was activated. I wanted a gradual shift but had not idea how to do that at the time. With a deadline coming, I scrapped the playback effect, pulled the curtain over the outside of the independent wall, and set up a projector to project the visuals onto that curtain. I also cut the wires to nearly exact lengths and cabled the wires for each sensor together with duct tape. It was not time for user testing.
